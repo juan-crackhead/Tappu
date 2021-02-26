@@ -23,9 +23,6 @@ namespace Game
         {
             //Strings and other stuff
             string settingslocation = @"C:\Tappu\tappudata\settings\";
-
-
-
             //Initialize the Screen Mode
             BackgroundImageLayout = ImageLayout.Zoom;
 
@@ -54,8 +51,6 @@ namespace Game
                 FormBorderStyle = FormBorderStyle.FixedSingle;
             }
 
-
-
             //Initialize Skin
             try
             {
@@ -71,14 +66,57 @@ namespace Game
             //see what skin is selected in settings
             string SelectedSkin = File.ReadAllText(settingslocation + "selectedskin" + ".txt");
             //Set background photo
-            BackgroundImage = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/mainmenu/menuback.jpg");
+            Random rng = new Random();
+            int random = rng.Next(1, 5);
+            BackgroundImage = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/mainmenu/backgrounds/" + random + ".jpg");
+            //FPS Cap Initialization
+            try
+            {
+                if (!File.Exists(settingslocation + "fpscap" + ".txt"))
+                {
+                    System.IO.File.Move(settingslocation + "fpscap.tappusetting", settingslocation + "fpscap.txt");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Settings are broken, Re-Install Tappu");
+            }
 
+            string fpscap = File.ReadAllText(settingslocation + "fpscap" + ".txt");
 
-            //End of settings loading
-
-            //Plays startup sound in skin folder
+            if (fpscap.Equals("60"))
+            {
+                openAnimation.Interval = 16;
+            }
+            else
+            {
+                if (fpscap.Equals("120"))
+                {
+                    openAnimation.Interval = 8;
+                }
+                else
+                {
+                    if (fpscap.Equals("144"))
+                    {
+                        openAnimation.Interval = 6;
+                    }
+                    else
+                    {
+                        if (fpscap.Equals("240"))
+                        {
+                            openAnimation.Interval = 4;
+                        }
+                        else
+                        {
+                            
+                        }
+                    }
+                }
+            }
+            //Play Startup Sound
             SoundPlayer simpleSound = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/startupsound.wav");
             simpleSound.Play();
         }
+
     }
 }
