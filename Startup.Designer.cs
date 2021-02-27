@@ -49,7 +49,7 @@ namespace Tappu
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Kamikaze 3D Gradient", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(152, 20);
+            this.label2.Location = new System.Drawing.Point(165, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(253, 59);
             this.label2.TabIndex = 1;
@@ -60,22 +60,22 @@ namespace Tappu
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Kamikaze 3D Gradient", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Kamikaze", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(196, 113);
+            this.label1.Location = new System.Drawing.Point(214, 113);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 30);
+            this.label1.Size = new System.Drawing.Size(161, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "FPS Cap";
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Kamikaze", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox1.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(40, 157);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(79, 36);
+            this.checkBox1.Size = new System.Drawing.Size(77, 35);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "60";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -84,11 +84,11 @@ namespace Tappu
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Kamikaze", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox2.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox2.ForeColor = System.Drawing.Color.White;
             this.checkBox2.Location = new System.Drawing.Point(130, 157);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(88, 36);
+            this.checkBox2.Size = new System.Drawing.Size(86, 35);
             this.checkBox2.TabIndex = 4;
             this.checkBox2.Text = "120";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -97,11 +97,11 @@ namespace Tappu
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Kamikaze", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox3.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox3.ForeColor = System.Drawing.Color.White;
             this.checkBox3.Location = new System.Drawing.Point(232, 157);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(92, 36);
+            this.checkBox3.Size = new System.Drawing.Size(90, 35);
             this.checkBox3.TabIndex = 5;
             this.checkBox3.Text = "144";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -110,11 +110,11 @@ namespace Tappu
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Kamikaze", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox4.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox4.ForeColor = System.Drawing.Color.White;
             this.checkBox4.Location = new System.Drawing.Point(338, 157);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(90, 36);
+            this.checkBox4.Size = new System.Drawing.Size(88, 35);
             this.checkBox4.TabIndex = 6;
             this.checkBox4.Text = "160";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -123,11 +123,11 @@ namespace Tappu
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Kamikaze", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox5.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox5.ForeColor = System.Drawing.Color.White;
             this.checkBox5.Location = new System.Drawing.Point(442, 157);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(101, 36);
+            this.checkBox5.Size = new System.Drawing.Size(98, 35);
             this.checkBox5.TabIndex = 7;
             this.checkBox5.Text = "240";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -135,13 +135,13 @@ namespace Tappu
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(7)))), ((int)(((byte)(7)))));
             this.button1.FlatAppearance.BorderSize = 7;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Kamikaze 3D Gradient", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(152, 361);
             this.button1.Name = "button1";
@@ -155,18 +155,18 @@ namespace Tappu
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Kamikaze 3D Gradient", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Kamikaze", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(112, 230);
+            this.label3.Location = new System.Drawing.Point(130, 230);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(331, 30);
+            this.label3.Size = new System.Drawing.Size(320, 29);
             this.label3.TabIndex = 9;
             this.label3.Text = "Texture Quality";
             // 
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox6.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox6.ForeColor = System.Drawing.Color.White;
             this.checkBox6.Location = new System.Drawing.Point(40, 272);
             this.checkBox6.Name = "checkBox6";
@@ -178,7 +178,7 @@ namespace Tappu
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox7.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox7.ForeColor = System.Drawing.Color.White;
             this.checkBox7.Location = new System.Drawing.Point(196, 272);
             this.checkBox7.Name = "checkBox7";
@@ -190,7 +190,7 @@ namespace Tappu
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox8.Font = new System.Drawing.Font("Kamikaze", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.checkBox8.ForeColor = System.Drawing.Color.White;
             this.checkBox8.Location = new System.Drawing.Point(418, 272);
             this.checkBox8.Name = "checkBox8";
@@ -203,7 +203,7 @@ namespace Tappu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(578, 486);
             this.Controls.Add(this.checkBox8);
             this.Controls.Add(this.checkBox7);

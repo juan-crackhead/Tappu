@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DiscordRPC;
 using Newtonsoft.Json;
+using Tappu;
 
 namespace Game
 {
@@ -154,6 +155,12 @@ SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SettingsWindow f2 = new SettingsWindow();
+            f2.Show();
         }
     }
 }
