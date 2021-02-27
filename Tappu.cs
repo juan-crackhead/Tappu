@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Media;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -22,7 +23,7 @@ namespace Game
         private void Form1_Load(object sender, EventArgs e)
         {
             //Strings and other stuff
-            string settingslocation = @"C:\Tappu\tappudata\settings\";
+string settingslocation = @"C:\Tappu\tappudata\settings\";
             //Initialize the Screen Mode
             BackgroundImageLayout = ImageLayout.Zoom;
 
@@ -66,11 +67,11 @@ namespace Game
             //see what skin is selected in settings
             string SelectedSkin = File.ReadAllText(settingslocation + "selectedskin" + ".txt");
             //Set background photo
-            Random rng = new Random();
+Random rng = new Random();
             int random = rng.Next(1, 5);
             BackgroundImage = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/mainmenu/backgrounds/" + random + ".jpg");
             //FPS Cap Initialization
-            try
+try
             {
                 if (!File.Exists(settingslocation + "fpscap" + ".txt"))
                 {
@@ -114,9 +115,12 @@ namespace Game
                 }
             }
             //Play Startup Sound
-            SoundPlayer simpleSound = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/startupsound.wav");
+SoundPlayer simpleSound = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/startupsound.wav");
             simpleSound.Play();
+            //Menu Music Starting
+SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/menumusic.wav");
+            MenuMusic.Play();
+            //Menu Animation Play
         }
-
     }
 }

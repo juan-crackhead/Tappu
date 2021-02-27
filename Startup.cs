@@ -170,11 +170,11 @@ namespace Tappu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+
             TappuWindow f2 = new TappuWindow();
 
             f2.ShowDialog();
-            
+            this.Close();
         }
     }
 }
