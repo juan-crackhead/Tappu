@@ -134,13 +134,15 @@ try
                     }
                 }
             }
+            //Load UI
+
+
             //Play Startup Sound
 SoundPlayer simpleSound = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/startupsound.wav");
             simpleSound.Play();
             //Menu Music Starting
 SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/menumusic.wav");
             MenuMusic.Play();
-            //UI Loading
 
         }
     }
