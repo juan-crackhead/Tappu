@@ -32,11 +32,11 @@ namespace Game
             this.components = new System.ComponentModel.Container();
             this.openAnimation = new System.Windows.Forms.Timer(this.components);
             this.UIButtons = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.UIButtons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,40 @@ namespace Game
             this.UIButtons.Name = "UIButtons";
             this.UIButtons.Size = new System.Drawing.Size(596, 647);
             this.UIButtons.TabIndex = 0;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Black;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(114, 555);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(374, 82);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Exit!";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(114, 435);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(374, 82);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Settings!";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -97,40 +131,6 @@ namespace Game
             this.label2.Size = new System.Drawing.Size(174, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Playing song from selected skin";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(114, 408);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(374, 82);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Settings!";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Black;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(114, 496);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(374, 82);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Exit!";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // TappuWindow
             // 
