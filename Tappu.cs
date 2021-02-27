@@ -135,6 +135,7 @@ try
                 }
             }
             //UI
+
             pictureBox1.Image = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/tappuicon.png");
             //Play Startup Sound
             SoundPlayer simpleSound = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/startupsound.wav");
