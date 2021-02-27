@@ -29,13 +29,13 @@ namespace Game
             //Strings and other stuff
             string settingslocation = @"C:\Tappu\tappudata\settings\";
             //Discord Rich Presence
-            client = new DiscordRpcClient("815220394201841685");
+client = new DiscordRpcClient("815220394201841685");
             client.Initialize();
 
             client.SetPresence(new RichPresence()
             {
                 Details = "",
-                State = "IN MENU",
+                State = "In Menu",
                 Assets = new Assets()
                 {
                     LargeImageKey = "tappuicon",

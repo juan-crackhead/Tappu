@@ -45,7 +45,7 @@ namespace Game
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Kamikaze 3D Gradient", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(493, 73);
+            this.label1.Location = new System.Drawing.Point(217, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(276, 59);
             this.label1.TabIndex = 0;
