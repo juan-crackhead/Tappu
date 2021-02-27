@@ -35,6 +35,7 @@ namespace Game
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.UIButtons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -59,9 +60,10 @@ namespace Game
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Kamikaze", 71.99999F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(145, 316);
+            this.label1.Location = new System.Drawing.Point(139, 317);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(304, 79);
             this.label1.TabIndex = 1;
@@ -93,6 +95,18 @@ namespace Game
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(5, 664);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(174, 15);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Playing song from selected skin";
+            // 
             // TappuWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -100,7 +114,9 @@ namespace Game
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.UIButtons);
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
@@ -113,6 +129,7 @@ namespace Game
             this.UIButtons.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -123,5 +140,6 @@ namespace Game
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
     }
 }
