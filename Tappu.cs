@@ -20,6 +20,8 @@ namespace Game
             InitializeComponent();
         }
 
+        
+
         private void Form1_Load(object sender, EventArgs e)
         {
             //Strings and other stuff
@@ -120,7 +122,8 @@ SoundPlayer simpleSound = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin 
             //Menu Music Starting
 SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/menumusic.wav");
             MenuMusic.Play();
-            //Menu Animation Play
+            //UI Loading
+
         }
     }
 }
