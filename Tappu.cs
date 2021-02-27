@@ -10,6 +10,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DiscordRPC;
+using Newtonsoft.Json;
 
 namespace Game
 {
@@ -20,12 +22,28 @@ namespace Game
             InitializeComponent();
         }
 
-        
+        public DiscordRpcClient client;
 
         private void Form1_Load(object sender, EventArgs e)
         {
             //Strings and other stuff
-string settingslocation = @"C:\Tappu\tappudata\settings\";
+            string settingslocation = @"C:\Tappu\tappudata\settings\";
+            //Discord Rich Presence
+            client = new DiscordRpcClient("815220394201841685");
+            client.Initialize();
+
+            client.SetPresence(new RichPresence()
+            {
+                Details = "",
+                State = "IN MENU",
+                Assets = new Assets()
+                {
+                    LargeImageKey = "tappuicon",
+                    LargeImageText = "",
+                    SmallImageKey = ""
+                }
+            });
+
             //Initialize the Screen Mode
             BackgroundImageLayout = ImageLayout.Zoom;
 
