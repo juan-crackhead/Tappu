@@ -88,7 +88,7 @@ client = new DiscordRpcClient("815220394201841685");
             string SelectedSkin = File.ReadAllText(settingslocation + "selectedskin" + ".txt");
             //Set background photo
 Random rng = new Random();
-            int random = rng.Next(1, 5);
+            int random = rng.Next(1, 6);
             BackgroundImage = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/mainmenu/backgrounds/" + random + ".jpg");
             //FPS Cap Initialization
 try
@@ -144,6 +144,16 @@ try
 SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/menumusic.wav");
             MenuMusic.Play();
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
