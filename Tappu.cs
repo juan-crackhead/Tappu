@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Using References
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -147,17 +148,16 @@ SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + 
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
+        //<  Button Events >
 
-        }
-
+        //Exit Button
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        //Settings Button
+private void button2_Click(object sender, EventArgs e)
         {
             SettingsWindow f2 = new SettingsWindow();
             f2.Show();
