@@ -1,7 +1,7 @@
 ﻿
 namespace Tappu
 {
-    partial class SettingsWindow
+    partial class LoadMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,16 @@ namespace Tappu
         {
             this.SuspendLayout();
             // 
-            // SettingsWindow
+            // LoadMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 675);
-            this.Name = "SettingsWindow";
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.Name = "LoadMenu";
             this.ShowIcon = false;
-            this.Text = "Settings";
+            this.Load += new System.EventHandler(this.LoadMenu_Load);
             this.ResumeLayout(false);
 
         }

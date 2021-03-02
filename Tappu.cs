@@ -154,7 +154,8 @@ SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + 
         }
 
         //Settings Button
-private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+
         {
             SettingsWindow f2 = new SettingsWindow();
             f2.Show();

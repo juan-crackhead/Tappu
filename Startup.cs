@@ -24,6 +24,7 @@ namespace Tappu
             
         }
 
+        //Checkbox Selection Stuff
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked)
@@ -164,18 +165,16 @@ namespace Tappu
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
             TappuWindow f2 = new TappuWindow();
-            Thread.Sleep(300);
+            LoadMenu poo = new LoadMenu();
+            Random rng = new Random();
+            int random = rng.Next(500, 1500);
+            Thread.Sleep(random);
+            poo.ShowDialog();
             f2.ShowDialog();
-            this.Close();
+            this.Close(); 
         }
     }
 }
