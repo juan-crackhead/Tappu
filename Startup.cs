@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -172,7 +173,7 @@ namespace Tappu
         {
 
             TappuWindow f2 = new TappuWindow();
-
+            Thread.Sleep(300);
             f2.ShowDialog();
             this.Close();
         }

@@ -134,7 +134,6 @@ namespace Game
             this.label2.Size = new System.Drawing.Size(594, 14);
             this.label2.TabIndex = 1;
             this.label2.Text = "Playing menu music/open sound from selected skin. Made by Juan\r\n";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // TappuWindow
             // 
