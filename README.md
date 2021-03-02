@@ -23,7 +23,7 @@
 <body>
 
 
-<button class="button button2">Download!</button>
+<p style="text-align: center;"><button class="button button2">Download!</button></p>
 
 </body>
 </html> 
