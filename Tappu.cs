@@ -1,18 +1,10 @@
 ﻿//Using References
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Media;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DiscordRPC;
-using Newtonsoft.Json;
 using Tappu;
 
 namespace Game
@@ -46,7 +38,7 @@ client = new DiscordRpcClient("815220394201841685");
                 }
             });
             //Initialize the Screen Mode
-BackgroundImageLayout = ImageLayout.Zoom;
+            BackgroundImageLayout = ImageLayout.Zoom;
 
             try
             {
@@ -73,7 +65,7 @@ BackgroundImageLayout = ImageLayout.Zoom;
                 FormBorderStyle = FormBorderStyle.FixedSingle;
             }
             //Initialize Skin
-try
+            try
             {
                 if (!File.Exists(settingslocation + "selectedskin" + ".txt"))
                 {
@@ -85,14 +77,14 @@ try
                 MessageBox.Show("Settings are Broken, Re-install Tappu");
             }
             //See what skin is selected in settings
-string SelectedSkin = File.ReadAllText(settingslocation + "selectedskin" + ".txt");
+            string SelectedSkin = File.ReadAllText(settingslocation + "selectedskin" + ".txt");
             //Set background photo
-Random rng = new Random();
+            Random rng = new Random();
             int fileCount = Directory.GetFiles("C:/Tappu/tappuskins/" + SelectedSkin + "/textures/mainmenu/backgrounds/", "*.*", SearchOption.AllDirectories).Length; // Will Retrieve count of all files in directry and sub directries
             int random = rng.Next(1, fileCount);
             BackgroundImage = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/mainmenu/backgrounds/" + random + ".jpg");
             //FPS Cap Initialization
-try
+            try
             {
                 if (!File.Exists(settingslocation + "fpscap" + ".txt"))
                 {
@@ -136,13 +128,16 @@ try
                 }
             }
             //UI
-pictureBox1.Image = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/tappuicon.png");
+            pictureBox1.Image = Image.FromFile(@"C:/Tappu/tappuskins/" + SelectedSkin + "/textures/tappuicon.png");
             //Play Startup Sound
             SoundPlayer simpleSound = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/startupsound.wav");
             simpleSound.Play();
             //Menu Music Starting
-SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/menumusic.wav");
+            SoundPlayer MenuMusic = new SoundPlayer("C:/Tappu/tappuskins/" + SelectedSkin + "/sounds/menumusic.wav");
             MenuMusic.Play();
+            //Open Background Loading Thing
+            LoadMenu poo = new LoadMenu();
+            poo.Show();
         }
 
         //<  Button Events >

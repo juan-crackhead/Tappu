@@ -32,12 +32,12 @@ namespace Tappu
                 checkBox1.Checked = true;
             }
 
-            if (checkBox2.Checked)
+             if (checkBox2.Checked)
             {
                 checkBox2.Checked = false;
             }
 
-            if (checkBox3.Checked)
+           if (checkBox3.Checked)
             {
                 checkBox3.Checked = false;
             }
@@ -172,9 +172,8 @@ namespace Tappu
             Random rng = new Random();
             int random = rng.Next(500, 1500);
             Thread.Sleep(random);
-            poo.ShowDialog();
             f2.ShowDialog();
-            this.Close(); 
+            this.Close();
         }
     }
 }

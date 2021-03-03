@@ -39,6 +39,7 @@ namespace Tappu
             this.Name = "SettingsWindow";
             this.ShowIcon = false;
             this.Text = "Settings";
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }

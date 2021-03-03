@@ -36,8 +36,9 @@ namespace Tappu
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoadMenu";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.LoadMenu_Load);
