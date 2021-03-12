@@ -28,7 +28,7 @@ namespace Tappu
         private void LoadMenu_Load(object sender, EventArgs e)
         {
             //Strings and other stuff
-            string settingslocation = @"C:\Tappu\tappudata\settings\";
+            string settingslocation = Application.StartupPath + "settings/";
             //Initialize the Screen Mode
             BackgroundImageLayout = ImageLayout.Zoom;
             try

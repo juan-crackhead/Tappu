@@ -53,7 +53,7 @@ namespace Game
             this.UIButtons.Controls.Add(this.button2);
             this.UIButtons.Controls.Add(this.pictureBox1);
             this.UIButtons.Controls.Add(this.button1);
-            this.UIButtons.Location = new System.Drawing.Point(332, 12);
+            this.UIButtons.Location = new System.Drawing.Point(335, 2);
             this.UIButtons.Name = "UIButtons";
             this.UIButtons.Size = new System.Drawing.Size(596, 647);
             this.UIButtons.TabIndex = 0;
@@ -147,6 +147,7 @@ namespace Game
             this.Cursor = System.Windows.Forms.Cursors.Cross;
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "TappuWindow";
             this.ShowIcon = false;
