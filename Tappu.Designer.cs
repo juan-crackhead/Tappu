@@ -67,7 +67,7 @@ namespace Game
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(113, 556);
+            this.button3.Location = new System.Drawing.Point(115, 529);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(374, 82);
             this.button3.TabIndex = 4;
@@ -85,7 +85,7 @@ namespace Game
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(113, 436);
+            this.button2.Location = new System.Drawing.Point(115, 409);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(374, 82);
             this.button2.TabIndex = 3;
@@ -98,7 +98,7 @@ namespace Game
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(191, 52);
+            this.pictureBox1.Location = new System.Drawing.Point(192, 28);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(212, 206);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -114,7 +114,7 @@ namespace Game
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Kamikaze", 54.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(82, 309);
+            this.button1.Location = new System.Drawing.Point(84, 282);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(433, 93);
             this.button1.TabIndex = 2;
