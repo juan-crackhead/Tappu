@@ -38,6 +38,7 @@ namespace Game
                     SmallImageKey = ""
                 }
             });
+
             //Initialize the Screen Mode
             BackgroundImageLayout = ImageLayout.Zoom;
             try
