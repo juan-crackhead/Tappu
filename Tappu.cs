@@ -152,10 +152,16 @@ namespace Game
 
         //Settings Button
         private void button2_Click(object sender, EventArgs e)
-
         {
             SettingsWindow f2 = new SettingsWindow();
-            f2.Show();
+            f2.ShowDialog();
+        }
+
+        //Play Button
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Song_Selector f2 = new Song_Selector();
+            f2.ShowDialog();
         }
     }
 }
