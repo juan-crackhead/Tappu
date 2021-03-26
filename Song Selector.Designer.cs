@@ -43,7 +43,7 @@ namespace Tappu
             this.MinimizeBox = false;
             this.Name = "Song_Selector";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Select a Song";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Song_Selector_Load);

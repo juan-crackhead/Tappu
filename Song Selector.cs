@@ -25,8 +25,8 @@ namespace Tappu
             client = new DiscordRpcClient("815220394201841685");
             client.SetPresence(new RichPresence()
             {
-                Details = "Selecting Song",
-                State = "In Menu",
+                Details = "",
+                State = "Selecting Song",
                 Assets = new Assets()
                 {
                     LargeImageKey = "tappuicon",

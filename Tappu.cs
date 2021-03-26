@@ -138,8 +138,13 @@ namespace Game
             SoundPlayer MenuMusic = new SoundPlayer(tappudatalocation + "tappuskins/" + SelectedSkin + "/sounds/menumusic.wav");
             MenuMusic.Play();
             //Open Background Loading Thing
-            LoadMenu poo = new LoadMenu();
-            poo.Show();
+            string poopy = File.ReadAllText(settingslocation + "screenmode" + ".txt");
+
+            if (poopy.Equals("Maximized"))
+            {
+                LoadMenu asfkdj = new LoadMenu();
+                asfkdj.Show();
+            }
         }
 
         //<  Button Events >

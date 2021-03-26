@@ -53,7 +53,7 @@ namespace Game
             this.UIButtons.Controls.Add(this.button2);
             this.UIButtons.Controls.Add(this.pictureBox1);
             this.UIButtons.Controls.Add(this.button1);
-            this.UIButtons.Location = new System.Drawing.Point(343, 2);
+            this.UIButtons.Location = new System.Drawing.Point(340, 24);
             this.UIButtons.Name = "UIButtons";
             this.UIButtons.Size = new System.Drawing.Size(594, 608);
             this.UIButtons.TabIndex = 0;
