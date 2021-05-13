@@ -165,8 +165,10 @@ namespace Game
         //Play Button
         private void button1_Click(object sender, EventArgs e)
         {
-            Song_Selector f2 = new Song_Selector();
+            //Song_Selector f2 = new Song_Selector();
+            game f2 = new game();
             f2.ShowDialog();
         }
+
     }
 }

@@ -30,20 +30,16 @@ namespace Game
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.openAnimation = new System.Windows.Forms.Timer(this.components);
             this.UIButtons = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.openAnimation = new System.Windows.Forms.Timer(this.components);
             this.UIButtons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // openAnimation
-            // 
-            this.openAnimation.Interval = 16;
             // 
             // UIButtons
             // 
@@ -132,7 +128,7 @@ namespace Game
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(2, 701);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(594, 14);
+            this.label2.Size = new System.Drawing.Size(587, 14);
             this.label2.TabIndex = 1;
             this.label2.Text = "Playing menu music/open sound from selected skin. Made by Juan\r\n";
             // 
@@ -164,13 +160,12 @@ namespace Game
         }
 
         #endregion
-
-        private System.Windows.Forms.Timer openAnimation;
         private System.Windows.Forms.Panel UIButtons;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Timer openAnimation;
     }
 }

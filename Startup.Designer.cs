@@ -138,9 +138,9 @@ namespace Tappu
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Kamikaze", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(152, 361);
+            this.button1.Location = new System.Drawing.Point(165, 228);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(278, 98);
+            this.button1.Size = new System.Drawing.Size(253, 98);
             this.button1.TabIndex = 8;
             this.button1.Text = "Start!";
             this.button1.UseVisualStyleBackColor = false;
@@ -151,7 +151,7 @@ namespace Tappu
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(578, 486);
+            this.ClientSize = new System.Drawing.Size(578, 349);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
