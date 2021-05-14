@@ -63,28 +63,24 @@ namespace Tappu
                 FormBorderStyle = FormBorderStyle.FixedSingle;
             }
         }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
+        
+         private void textBox1_KeyDown(object sender, KeyEventArgs e)
+         {
             if (e.KeyCode == Keys.S)
             {
-                KeyPressEventLeft();
+                while (e.KeyCode == Keys.S)
+                {
+
+                }
             }
 
             if (e.KeyCode == Keys.D)
             {
-                KeyPressEventRight();
+                while (e.KeyCode == Keys.D)
+                {
+
+                }
             }
-        }
-
-        private void KeyPressEventLeft()
-        {
-            
-        }
-
-        private void KeyPressEventRight()
-        {
-
         }
 
         //Key Handler/Game Key Handler
